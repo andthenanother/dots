@@ -1,0 +1,9 @@
+[notebook]
+dir = "~/notes"
+
+[note]
+filename = "{{format-date now 'timestamp'}}"
+
+[lsp.diagnostics]
+wiki-title = "hint"
+dead-link = "warning"

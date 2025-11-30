@@ -1,0 +1,17 @@
+-- return {
+-- 	cmd = { "harper-ls", "--stdio" },
+-- 	filetypes = { "markdown", "text", "html", "yaml" },
+-- 	settings = {
+-- 		["harper-ls"] = {
+-- 			linters = {
+-- 				SentenceCapitalization = false,
+-- 				HowTo = false,
+-- 				UseGenitive = true,
+-- 				AvoidCurses = false,
+-- 			},
+-- 			userDictPath = "~/.config/nvim/spell/en.utf-8.add",
+-- 			fileDictPath = "~/.config/nvim/spell/en.utf-8.add",
+-- 			isolateEnglish = true,
+-- 		}
+-- 	},
+-- }

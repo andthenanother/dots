@@ -1,0 +1,22 @@
+return {
+  ["blink.cmp"] = "f13226770b4947eb7e66befbeb53c3db39f13e25",
+  ["bullets.vim"] = "1c13e510e11d08b0259e8e627f128359c5521962",
+  ["conform.nvim"] = "4993e07fac6679d0a5005aa7499e0bad2bd39f19",
+  ["goyo.vim"] = "fa0263d456dd43f5926484d1c4c7022dfcb21ba9",
+  ["hlchunk.nvim"] = "937135185f99a30cb1413fff76a5c971f250b1a7",
+  ["img-clip.nvim"] = "e7e29f0d07110405adecd576b602306a7edd507a",
+  ["limelight.vim"] = "0c8cc7f503a775c505dc9c67f1f5041ab4d5f1fd",
+  ["markview.nvim"] = "bf62f7d173f4b42cd02794c6c5f5a8bd3047a58a",
+  ["mini.ai"] = "bfb26d9072670c3aaefab0f53024b2f3729c8083",
+  ["mini.deps"] = "8f6f74a8b68dbad02f1813dff4ddae5afeee92df",
+  ["mini.files"] = "26baa6215c2e5c40ba7fe82685d827fe8e5c68c8",
+  ["mini.icons"] = "ff2e4f1d29f659cc2bad0f9256f2f6195c6b2428",
+  ["mini.pick"] = "b4351399db5043a781a32699a1bde60b747f711f",
+  ["mini.surround"] = "88c52297ed3e69ecf9f8652837888ecc727a28ee",
+  ["noice.nvim"] = "7bfd942445fb63089b59f97ca487d605e715f155",
+  ["nui.nvim"] = "de740991c12411b663994b2860f1a4fd0937c130",
+  ["nvim-treesitter"] = "17885756e63df73ed90db62e4630f744ceda6514",
+  ["snacks.nvim"] = "fe7cfe9800a182274d0f868a74b7263b8c0c020b",
+  treesj = "4770492244ccecdc9b01e0e81fa8f2f6b4a23841",
+  ["zk-nvim"] = "575c3e8242d925c87e9a11fd7d304bc223d2f096"
+}

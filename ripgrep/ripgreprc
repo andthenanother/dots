@@ -1,0 +1,5 @@
+--smart-case
+--hidden
+--glob=!{.git,.stfolder,.cargo,.rustup,.local,.mozilla,.cache,.wine,.steam,.var,.npm,node_modules,*.sdr,package-lock.json,src}
+--glob=!src
+--glob=!.librewolf

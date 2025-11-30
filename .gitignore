@@ -1,0 +1,11 @@
+gh
+.zcompdump
+nvim/spell
+memo-history.log
+db
+mpd.db
+log
+pid
+plist
+state
+sticker.sql

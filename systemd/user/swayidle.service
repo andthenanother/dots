@@ -1,0 +1,9 @@
+[Unit]
+Description=Idle manager for Wayland
+Documentation=man:swayidle(1)
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/swayidle timeout 610 'niri msg action power-off-monitor' resume 'niri msg action power-on-monitor' timeout 1200 'systemctl suspend'

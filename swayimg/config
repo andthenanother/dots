@@ -1,0 +1,32 @@
+[info]
+show = no
+
+[list]
+order = mtime
+all = yes
+
+[viewer]
+scale = fit
+
+[gallery]
+size = 230
+cache = 1000
+preload = yes
+pstore = yes
+
+[keys.viewer]
+p = prev_file
+n = next_file
+
+x = exec trash-put '%' && echo "File removed: %"
+
+[keys.gallery]
+p = prev_file
+n = next_file
+
+h = step_left
+j = step_down
+k = step_up
+l = step_right
+
+x = exec trash-put '%' && echo "File removed: %"

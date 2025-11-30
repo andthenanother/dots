@@ -1,0 +1,9 @@
+[Unit]
+Description=Swaybg to provide the desktop background
+Documentation=man:swaybg(1)
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/swaybg -m fill -i %h/.config/wallpapers/mrf6414.be_better.png

@@ -1,0 +1,43 @@
+-- local words = {}
+-- for word in io.open(vim.fn.stdpath('config') .. '/spell/en.utf-8.add', 'r'):lines() do
+-- 	table.insert(words, word)
+-- end
+--
+-- local filetypes = {
+-- 	'markdown', 'org', 'pandoc', 'plaintext', 'text', 'typst',
+-- }
+--
+-- return {
+-- 	cmd = { 'ltex-ls-plus' },
+-- 	single_file_support = true,
+-- 	filetypes = filetypes,
+-- 	settings = {
+-- 		ltex = {
+-- 			completionEnabled = true,
+-- 			additionalRules = {
+-- 				languageModel = '~/src/ngrams-en',
+-- 				enablePickyRules = true,
+-- 			},
+-- 			diagnosticSeverity = 'hint',
+-- 			checkFrequency = 'save',
+-- 			language = 'en-US',
+-- 			enabledRules = { ['en-US'] = { 'PASSIVE_VOICE' } },
+-- 			disabledRules = {
+-- 				['en-US'] = {
+-- 					'DASH_RULE',
+-- 					'ENGLISH_WORD_REPEAT_BEGINNING_RULE',
+-- 					'EN_QUOTES',
+-- 					'EN_UNPAIRED_QUOTES',
+-- 					'MORFOLOGIK_RULE_EN_US',
+-- 					'PROFANITY',
+-- 					'PASSIVE_VOICE',
+-- 					'COMMA_PARENTHESIS_WHITESPACE',
+-- 					'CONSECUTIVE_SPACES',
+-- 				},
+-- 			},
+-- 			dictionary = {
+-- 				['en-US'] = words,
+-- 			},
+-- 		},
+-- 	},
+-- }
